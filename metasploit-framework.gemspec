@@ -192,4 +192,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'xdr'
   # Needed for ::Msf...CertProvider
   spec.add_runtime_dependency 'faker'
+  # Needed for ::Msf::Plugin::SessionPushNotificationNotifier
+  spec.add_runtime_dependency 'webpush'
 end
